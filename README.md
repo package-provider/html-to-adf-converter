@@ -11,12 +11,12 @@ A lightweight npm package that simplifies the process of converting HTML strings
 ## Installation
 
 ```bash
-npm install html-to-adf
+npm install html-to-adf-converter
 ```
 
 ## Usage
 ```bash
-const { convertToADF } = require('html-to-adf');
+const { convertToADF } = require('html-to-adf-converter');
 
 const htmlString = '<p>Your HTML content here</p>';
 const adfResult = convertToADF(htmlString);
