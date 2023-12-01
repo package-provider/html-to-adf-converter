@@ -16,7 +16,7 @@ npm install html-to-adf-converter
 
 ## Usage
 ```bash
-const { convertToADF } = require('html-to-adf-converter');
+import convertToADF  from 'html-to-adf-converter';
 
 const htmlString = '<p>Your HTML content here</p>';
 const adfResult = convertToADF(htmlString);
